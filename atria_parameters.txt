@@ -1,0 +1,12 @@
+INTRINSIC CELLULAR CYCLIC PARAMETERS:
+	activity_atria=   1000 in time steps
+	refractory_atria=   30
+	firing_atria=   1
+	deter=  1          deterministic rule
+NETWORK OF INTERACION PARAMETERS:
+	d= 0.550 probability to establish horizontal or lateral link of the Moore neighborhood in system of lines
+	twist= 0.0  probability for each edge to be twisted
+	SAN_N_F>   1   how many nghb (N_F + 1) in firing to fire a cell
+	refuse     0.0   refuse to FIRE
+    AVN_threshold  2
+    APD     10
